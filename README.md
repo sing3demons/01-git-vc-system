@@ -11,3 +11,10 @@ node index.js
 git switch deverlop
 git rebase main
 ``` 
+
+### เมื่อเรา develop ที่ branch ที่เราสร้างเสร็จแล้ว เมื่อเราจะรวมเข้ากับ branch main ให้กลับไปที่ main
+
+```
+git switch main
+git merge deverlop
+```
